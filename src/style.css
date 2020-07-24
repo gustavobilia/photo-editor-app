@@ -1,0 +1,74 @@
+body {
+    margin-top: 0;
+    background: lightcyan;
+}
+
+header {
+    background: rgb(245, 199, 206);
+    color: darkorchid;
+    width: 50%;
+    margin-top: 5px;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 50px;
+}
+
+#title {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+#img {
+    text-align: center;
+}
+
+#imagem-logo {
+    width: 150px;
+}
+
+#upload {
+    text-align: center;
+    color: black;
+}
+
+input {
+    margin-bottom: 1.5em;
+}
+
+#buttons {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 15px 0;
+    padding: 10px;
+    border: 2px solid darkorchid;
+    border-radius: 5px;
+    background: rgb(245, 199, 206);
+}
+
+#clear-button {
+    background: whitesmoke;
+    color: rgb(233, 23, 104);
+
+}
+
+button {
+    background: whitesmoke;
+    color: darkorchid;
+    font-weight: bold;
+    border: 1.4px solid darkorchid;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+canvas {
+    max-width: 100%;
+}

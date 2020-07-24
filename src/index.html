@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Editor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div id="title">
+            <h1>photo editor app</h1>
+        </div>
+        <div id="img">
+            <img  id="imagem-logo" src="logo.svg" alt="imagem logo">
+        </div>
+        <div id="upload">
+            <input type="file" id="uploader">
+        </div>
+    </header>
+
+    <div id="buttons">
+        <button>Greyscale</button>
+        <button>Sepia Effect</button>
+        <button>Invert</button>
+        <button>RGB > RBG</button>
+        <button>RGB > BGR</button>
+        <button>RGB > GBR</button>
+        <button>RGB > GRB</button>
+        <button id="clear-button">Clear</button>     
+    </div>
+
+    <div>
+        <canvas id="canvas"></canvas>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
